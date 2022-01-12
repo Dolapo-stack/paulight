@@ -1,0 +1,53 @@
+/* Style the whole document*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/*Style the body*/
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*Style the navigation bar*/
+nav {
+  background-color: black;
+  height: 80px;
+  width: 100%;
+}
+
+/*Select all labels with class "logo"*/
+label.logo {
+  color: orangered;
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+/* Style the items*/
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1rem;
+  border-radius: 3px;
+}
+
+a.active,
+a:hover {
+  color: cyan;
+  transition: 0.5s;
+}
